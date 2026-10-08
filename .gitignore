@@ -1,0 +1,22 @@
+# Xcode
+.DS_Store
+xcuserdata/
+DerivedData/
+*.xcuserstate
+
+# Build products
+build/
+
+# Local ML models
+*.gguf
+
+# Local/private binaries
+*.xcframework
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# macOS
+*.dSYM

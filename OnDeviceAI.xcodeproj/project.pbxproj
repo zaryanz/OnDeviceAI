@@ -11,6 +11,9 @@
 		927A21BF30769CBD002630CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A21BE30769CBD002630CC /* ContentView.swift */; };
 		927A21C130769CBF002630CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927A21C030769CBF002630CC /* Assets.xcassets */; };
 		927A21C430769CBF002630CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927A21C330769CBF002630CC /* Preview Assets.xcassets */; };
+		927A21CB30769E59002630CC /* llama.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927A21CA30769E59002630CC /* llama.xcframework */; };
+		927A21CD30778085002630CC /* qwen2.5-0.5b-instruct-q4_k_m.gguf in Resources */ = {isa = PBXBuildFile; fileRef = 927A21CC30778085002630CC /* qwen2.5-0.5b-instruct-q4_k_m.gguf */; };
+		927A21CF307780E8002630CC /* LlamaContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A21CE307780E8002630CC /* LlamaContext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		927A21BE30769CBD002630CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		927A21C030769CBF002630CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		927A21C330769CBF002630CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		927A21CA30769E59002630CC /* llama.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = llama.xcframework; sourceTree = "<group>"; };
+		927A21CC30778085002630CC /* qwen2.5-0.5b-instruct-q4_k_m.gguf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "qwen2.5-0.5b-instruct-q4_k_m.gguf"; sourceTree = "<group>"; };
+		927A21CE307780E8002630CC /* LlamaContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LlamaContext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				927A21CB30769E59002630CC /* llama.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,9 +59,11 @@
 			isa = PBXGroup;
 			children = (
 				927A21BC30769CBD002630CC /* OnDeviceAIApp.swift */,
+				927A21CC30778085002630CC /* qwen2.5-0.5b-instruct-q4_k_m.gguf */,
 				927A21BE30769CBD002630CC /* ContentView.swift */,
 				927A21C030769CBF002630CC /* Assets.xcassets */,
 				927A21C230769CBF002630CC /* Preview Content */,
+				927A21CE307780E8002630CC /* LlamaContext.swift */,
 			);
 			path = OnDeviceAI;
 			sourceTree = "<group>";
@@ -62,6 +71,7 @@
 		927A21C230769CBF002630CC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				927A21CA30769E59002630CC /* llama.xcframework */,
 				927A21C330769CBF002630CC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -126,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				927A21C430769CBF002630CC /* Preview Assets.xcassets in Resources */,
+				927A21CD30778085002630CC /* qwen2.5-0.5b-instruct-q4_k_m.gguf in Resources */,
 				927A21C130769CBF002630CC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				927A21BF30769CBD002630CC /* ContentView.swift in Sources */,
+				927A21CF307780E8002630CC /* LlamaContext.swift in Sources */,
 				927A21BD30769CBD002630CC /* OnDeviceAIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +284,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OnDeviceAI/Preview Content\"";
+				DEVELOPMENT_TEAM = 2C6SW9MXWM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OnDeviceAI/Preview Content\"";
+				DEVELOPMENT_TEAM = 2C6SW9MXWM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
